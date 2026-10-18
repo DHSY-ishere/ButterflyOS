@@ -1,0 +1,11 @@
+services:
+  falkordb:
+    image: falkordb/falkordb:latest
+    container_name: butterfly-falkordb
+    ports:
+      - "6379:6379"
+      - "3000:3000"
+    volumes:
+      - falkor_data:/var/lib/falkordb/data
+volumes:
+  falkor_data:

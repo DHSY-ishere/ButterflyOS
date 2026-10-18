@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+node_modules/
+.next/
+*.err
+*.out
+backend/.env
+deploy_run.log
+deploy_update.log
